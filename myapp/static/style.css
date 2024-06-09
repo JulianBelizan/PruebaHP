@@ -1,0 +1,146 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: linear-gradient(180deg, #ffffc9 0, #ffffba 16.67%, #fff6ac 33.33%, #f2d59d 50%, #d2b68f 66.67%, #b59c82 83.33%, #9a8777 100%);
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #21618C;
+}
+
+a {
+    color: #CB4B4B;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+li{
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos particulares para las tarjetas de Bootstrap */
+
+.card  {
+    background-color: rgba(255, 255, 255, 0.8) !important; 
+    border-radius: 15px !important; 
+    border: 2px solid #21618C; 
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2) !important; /
+}
+
+.card-title {
+    color: #21618C !important;
+}
+
+.card-text {
+    color: #666666 !important;
+}
+
+.type-box {
+    border: 2px solid #21618C;
+    text-transform: capitalize;
+    border-radius: 5px;
+    width: 4rem;
+}
+
+/* Estilos para el boton de volver arriba */
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #2a74dd;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 9999;
+}
+
+.back-to-top.show {
+    opacity: 1;
+}
+
+
+/* Todos los colores para los tipos de pokemons */
+
+.type-grass {
+    background: #78C850;
+}
+
+.type-poison {
+    background: #d760d7d4;
+}
+
+.type-fire {
+    background: #F08030;
+}
+
+.type-water {
+    background: #6890F0;
+}
+
+.type-bug {
+    background: #A8B820;
+}
+
+.type-normal {
+    background: #A8A878;
+}
+
+.type-electric {
+    background: #F8D030;
+}
+
+.type-flying {
+    background: #A890F0;
+}
+
+.type-ground {
+    background: #E0C068;
+}
+
+.type-fairy {
+    background: #EE99AC;
+}
+
+.type-fighting {
+    background: #C03028;
+}
+
+.type-psychic {
+    background: #F85888;
+}
+
+.type-rock {
+    background: #B8A038;
+}
+
+.type-ice {
+    background: #98D8D8;
+}
+
+.type-ghost {
+    background: #705898;
+}
+
+.type-dragon {
+    background: #7038F8;
+}
